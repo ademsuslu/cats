@@ -1,9 +1,11 @@
+import CatList from "@/components/cats/cat-list";
+
 export default async function  CatsPage() {
 
-  
   return (
-    <div>
-            Cats    
-    </div>
+   <div>
+    <CatList/>
+   </div>
   );
 }
+

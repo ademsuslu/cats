@@ -1,13 +1,8 @@
-import Welcome from "@/components/welcome";
-
 
 export default async function  Home() {
-
-  
   return (
     <div>
-      <Welcome/>
-    
+      Home
     </div>
   );
 }

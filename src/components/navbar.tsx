@@ -8,10 +8,12 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div className='space-x-8 flex w-full h-16  items-center justify-between'>
-        <Link href="/">Animals</Link>
-        <div className='flex items-center justify-between gap-2'>
-            <Link href="/cat"><BiSolidCat className="w-4 h-4" /></Link>
-            <Link href="/dog"><PiDog className="w-4 h-4"/></Link>
+        <Link href="/">
+          <h1 className="text-xl font-bold">Animals</h1>
+        </Link>
+        <div className='flex items-center justify-between gap-6'>
+            <Link href="/cat"><BiSolidCat className="w-8 h-8" /></Link>
+            <Link href="/dog"><PiDog className="w-8 h-8"/></Link>
         </div>
     </div>
   )
