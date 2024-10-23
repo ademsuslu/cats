@@ -1,10 +1,9 @@
-import CatList from "@/components/cats/cat-list";
+import DogList from "@/components/dogs/dog-list";
 
 export default async function  DogsPage() {
-
   return (
    <div>
-    <CatList/>
+    <DogList/>
    </div>
   );
 }
