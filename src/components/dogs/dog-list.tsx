@@ -6,7 +6,7 @@ const DogList = () => {
     const [dogs, setDogs] = useState([]);
 
     const fetchDogs = async () => {
-      const response = await axios.get("https://api.thedogapi.com/v1/images/search?limit=30");
+      const response = await axios.get("https://api.thedogapi.com/v1/images/search?limit=500");
       setDogs(response.data);
     };
 // create fettch with useEffect
